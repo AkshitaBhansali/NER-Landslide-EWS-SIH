@@ -3,12 +3,14 @@ FROM python:3.11-slim
 WORKDIR /app
 
 COPY backend/requirements.txt ./requirements.txt
+COPY backend/requirements-ml.txt ./requirements-ml.txt
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt -r requirements-ml.txt
 
 COPY backend/ ./backend/
 COPY data/ ./data/
 COPY reports/ ./reports/
+COPY ml/ ./ml/
 
 ENV PYTHONPATH=/app/backend
 
