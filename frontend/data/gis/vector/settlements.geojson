@@ -1,0 +1,116 @@
+{
+  "type": "FeatureCollection",
+  "name": "human_settlements",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "VIL_ZUBZA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.062,
+          25.663
+        ]
+      },
+      "properties": {
+        "asset_id": "VIL_ZUBZA",
+        "name": "Sech\u00fc Zubza",
+        "asset_type": "Settlement",
+        "population": 3850,
+        "households": 620,
+        "criticality_weight": 0.9,
+        "has_medical_facility": true,
+        "has_school": true,
+        "geomorphological_position": "Mid-slope colluvial terrace"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VIL_MEDZIPHEMA_SUB",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.035,
+          25.63
+        ]
+      },
+      "properties": {
+        "asset_id": "VIL_MEDZIPHEMA_SUB",
+        "name": "Old Medziphema Foothills",
+        "asset_type": "Settlement",
+        "population": 2900,
+        "households": 480,
+        "criticality_weight": 0.85,
+        "has_medical_facility": true,
+        "has_school": true,
+        "geomorphological_position": "Valley alluvial fan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VIL_PHESAMA_NORTH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.12,
+          25.702
+        ]
+      },
+      "properties": {
+        "asset_id": "VIL_PHESAMA_NORTH",
+        "name": "Phesama North Sector",
+        "asset_type": "Settlement",
+        "population": 2150,
+        "households": 340,
+        "criticality_weight": 0.88,
+        "has_medical_facility": false,
+        "has_school": true,
+        "geomorphological_position": "Steep debris slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VIL_TSIESEMA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.1,
+          25.692
+        ]
+      },
+      "properties": {
+        "asset_id": "VIL_TSIESEMA",
+        "name": "Tsiesema Hill Settlement",
+        "asset_type": "Settlement",
+        "population": 1640,
+        "households": 260,
+        "criticality_weight": 0.8,
+        "has_medical_facility": false,
+        "has_school": true,
+        "geomorphological_position": "Ridge spur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VIL_DZUDZA_HAMLET",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.072,
+          25.655
+        ]
+      },
+      "properties": {
+        "asset_id": "VIL_DZUDZA_HAMLET",
+        "name": "Dz\u00fcdza Riverside Hamlet",
+        "asset_type": "Settlement",
+        "population": 820,
+        "households": 135,
+        "criticality_weight": 0.95,
+        "has_medical_facility": false,
+        "has_school": false,
+        "geomorphological_position": "Active toe slope / riverbank"
+      }
+    }
+  ]
+}

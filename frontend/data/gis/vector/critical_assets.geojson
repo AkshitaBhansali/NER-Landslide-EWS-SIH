@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "name": "critical_infrastructure",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BRG_DZUDZA_01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.062,
+          25.66
+        ]
+      },
+      "properties": {
+        "asset_id": "BRG_DZUDZA_01",
+        "name": "Dz\u00fcdza Major Bridge (NH-29)",
+        "asset_type": "Bridge",
+        "criticality_weight": 1.0,
+        "replacement_cost_inr_cr": 45.0,
+        "failure_impact_description": "Severance of NH-29 stops all freight into Nagaland & Manipur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BRG_ZUBZA_CULVERT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.088,
+          25.68
+        ]
+      },
+      "properties": {
+        "asset_id": "BRG_ZUBZA_CULVERT",
+        "name": "Zubza Double-Cell RC Culvert",
+        "asset_type": "Culvert",
+        "criticality_weight": 0.85,
+        "replacement_cost_inr_cr": 8.5,
+        "failure_impact_description": "Local debris blockage threatens 120 upstream households"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWR_PWR_132KV_44",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.075,
+          25.67
+        ]
+      },
+      "properties": {
+        "asset_id": "TWR_PWR_132KV_44",
+        "name": "132kV Transmission Tower #44",
+        "asset_type": "Electric Transmission Tower",
+        "criticality_weight": 0.92,
+        "replacement_cost_inr_cr": 6.2,
+        "failure_impact_description": "Grid failure would black out Kohima & Tuensang districts"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWR_PWR_132KV_45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.082,
+          25.677
+        ]
+      },
+      "properties": {
+        "asset_id": "TWR_PWR_132KV_45",
+        "name": "132kV Transmission Tower #45",
+        "asset_type": "Electric Transmission Tower",
+        "criticality_weight": 0.9,
+        "replacement_cost_inr_cr": 5.8,
+        "failure_impact_description": "High-voltage line collapse onto highway below"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MED_ZUBZA_CHC",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.064,
+          25.664
+        ]
+      },
+      "properties": {
+        "asset_id": "MED_ZUBZA_CHC",
+        "name": "Sech\u00fc Zubza Community Health Center",
+        "asset_type": "Healthcare Facility",
+        "criticality_weight": 0.95,
+        "replacement_cost_inr_cr": 18.0,
+        "failure_impact_description": "Primary emergency medical triage point for the corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TEL_TOWER_AIRTEL_09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.095,
+          25.689
+        ]
+      },
+      "properties": {
+        "asset_id": "TEL_TOWER_AIRTEL_09",
+        "name": "Emergency Telecom BTS Hub",
+        "asset_type": "Telecommunications",
+        "criticality_weight": 0.88,
+        "replacement_cost_inr_cr": 3.5,
+        "failure_impact_description": "Loss of emergency alert broadcasting and GSM connectivity"
+      }
+    }
+  ]
+}

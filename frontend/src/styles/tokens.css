@@ -1,0 +1,68 @@
+/*
+  Design tokens.
+
+  Palette continues the quarterly-report language (warm paper, geo green, four-step
+  risk ramp) so the operational dashboard and the printed report read as one system.
+  Risk colours are used only where they carry meaning — never decoratively.
+*/
+
+:root {
+  /* ink & surfaces */
+  --ink: #16211f;
+  --ink-2: #3f504c;
+  --ink-3: #6b7b77;
+  --ink-4: #93a09c;
+
+  --paper: #f7f5ef;
+  --surface: #ffffff;
+  --surface-2: #f2efe7;
+  --surface-3: #eae6db;
+  --line: #e2ded2;
+  --line-2: #cfcabb;
+
+  /* brand */
+  --geo: #0f5a52;
+  --geo-2: #147167;
+  --geo-soft: #e2efec;
+  --geo-ink: #0a3f39;
+
+  /* console (sidebar / dark chrome) */
+  --console: #16211f;
+  --console-2: #1e2c29;
+  --console-3: #2a3b37;
+  --console-text: #d6ded9;
+  --console-muted: #8b9a95;
+
+  /* risk ramp */
+  --low: #4a9d4a;
+  --mod: #e6a52a;
+  --high: #d1642e;
+  --sev: #b5342e;
+  --low-bg: #eaf3e2;
+  --mod-bg: #fbf0d8;
+  --high-bg: #f8e6da;
+  --sev-bg: #f6e0dd;
+
+  /* status */
+  --info: #2f6f9e;
+  --info-bg: #e3eef6;
+
+  /* typography */
+  --font-ui: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-editorial: "Fraunces", "Iowan Old Style", Georgia, serif;
+
+  /* geometry */
+  --r-sm: 6px;
+  --r: 10px;
+  --r-lg: 14px;
+  --shadow-sm: 0 1px 2px rgba(22, 33, 31, 0.05);
+  --shadow: 0 2px 10px rgba(22, 33, 31, 0.07);
+  --shadow-lg: 0 12px 40px rgba(22, 33, 31, 0.18);
+
+  --sidebar-w: 236px;
+  --sidebar-w-collapsed: 68px;
+  --topbar-h: 60px;
+
+  --focus: 0 0 0 2px var(--paper), 0 0 0 4px var(--geo-2);
+}

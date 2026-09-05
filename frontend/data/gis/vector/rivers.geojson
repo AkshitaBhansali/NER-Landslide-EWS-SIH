@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "name": "drainage_network",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RIV_DZUDZA",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.032,
+            25.718
+          ],
+          [
+            94.04,
+            25.705
+          ],
+          [
+            94.048,
+            25.688
+          ],
+          [
+            94.055,
+            25.67
+          ],
+          [
+            94.062,
+            25.655
+          ],
+          [
+            94.07,
+            25.642
+          ],
+          [
+            94.078,
+            25.632
+          ],
+          [
+            94.088,
+            25.622
+          ]
+        ]
+      },
+      "properties": {
+        "river_id": "RIV_DZUDZA",
+        "name": "Dz\u00fcdza River",
+        "type": "Perennial Mountain River",
+        "mean_discharge_m3_s": 45.0,
+        "flash_flood_vulnerability": "High",
+        "erosion_potential": "Severe Toe Under-cutting"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RIV_CHATHE_TRIB",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.022,
+            25.66
+          ],
+          [
+            94.03,
+            25.65
+          ],
+          [
+            94.042,
+            25.645
+          ],
+          [
+            94.055,
+            25.64
+          ]
+        ]
+      },
+      "properties": {
+        "river_id": "RIV_CHATHE_TRIB",
+        "name": "Chathe River Tributary",
+        "type": "Seasonal Torrent",
+        "mean_discharge_m3_s": 18.0,
+        "flash_flood_vulnerability": "Moderate",
+        "erosion_potential": "Gully Incision"
+      }
+    }
+  ]
+}

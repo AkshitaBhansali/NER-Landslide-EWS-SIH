@@ -1,0 +1,14 @@
+# Standalone streaming service (ml/streaming_api).
+#
+# This is the original real-time telemetry service, preserved and runnable:
+#   cd ml && python -m streaming_api
+#
+# The platform backend does NOT need these — it has its own copy of the stream bus
+# and its own simulator. Run this only to use the standalone SSE/WebSocket service
+# on its own, or to compare its output against the integrated path.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pandas>=2.0
+scikit-learn>=1.3
+joblib>=1.3
+numpy>=1.26

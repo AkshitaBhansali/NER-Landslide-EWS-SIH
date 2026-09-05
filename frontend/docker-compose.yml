@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      DATABASE_URL: sqlite:////data/ner_ews.db
+      GIS_DATA_DIR: /project/data/gis
+      ML_DATA_DIR: /project/data/ml
+      REPORT_OUT_DIR: /project/reports
+      CORS_ORIGINS: "http://localhost:5173,http://localhost:4173"
+    volumes:
+      - ./data:/project/data:ro     # read-only: the app reads the pipelines' output
+      - ./reports:/project/reports
+      - backend-db:/data
+  frontend:
+    build: ./frontend
+    ports: ["5173:80"]
+    environment:
+      VITE_API_BASE_URL: http://localhost:8000/api
+    depends_on: [backend]
+volumes:
+  backend-db:

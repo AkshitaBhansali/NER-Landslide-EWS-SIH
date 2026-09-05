@@ -1,0 +1,246 @@
+{
+  "type": "FeatureCollection",
+  "name": "iot_sensor_network",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SNS_PIEZO_01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.058,
+          25.655
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_PIEZO_01",
+        "name": "Pore Pressure Piezometer PZ-01",
+        "sensor_type": "Piezometer",
+        "unit": "kPa",
+        "zone_id": "ZONE_NH29_ZUBZA",
+        "health_score": 77,
+        "battery_pct": 91,
+        "rssi_dbm": -67,
+        "status": "Degraded",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_PIEZO_02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.072,
+          25.671
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_PIEZO_02",
+        "name": "Pore Pressure Piezometer PZ-02",
+        "sensor_type": "Piezometer",
+        "unit": "kPa",
+        "zone_id": "ZONE_NH29_ZUBZA",
+        "health_score": 85,
+        "battery_pct": 81,
+        "rssi_dbm": -60,
+        "status": "Healthy",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_INCLINO_01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.062,
+          25.661
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_INCLINO_01",
+        "name": "Borehole Inclinometer IN-01",
+        "sensor_type": "Inclinometer",
+        "unit": "mm/day",
+        "zone_id": "ZONE_DZUDZA_BRIDGE",
+        "health_score": 77,
+        "battery_pct": 89,
+        "rssi_dbm": -82,
+        "status": "Degraded",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_INCLINO_02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.076,
+          25.673
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_INCLINO_02",
+        "name": "Surface Tiltmeter TL-02",
+        "sensor_type": "Tiltmeter",
+        "unit": "arcsec",
+        "zone_id": "ZONE_TOWER44_SLOPE",
+        "health_score": 77,
+        "battery_pct": 84,
+        "rssi_dbm": -56,
+        "status": "Degraded",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_RAIN_01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.065,
+          25.666
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_RAIN_01",
+        "name": "Tipping Bucket Rain Gauge RG-01",
+        "sensor_type": "Rain Gauge",
+        "unit": "mm/hr",
+        "zone_id": "ZONE_ZUBZA_CHC",
+        "health_score": 93,
+        "battery_pct": 91,
+        "rssi_dbm": -65,
+        "status": "Healthy",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_RAIN_02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.11,
+          25.698
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_RAIN_02",
+        "name": "Automatic Weather Station AWS-02",
+        "sensor_type": "Rain Gauge",
+        "unit": "mm/hr",
+        "zone_id": "ZONE_KOHIMA_WEST",
+        "health_score": 94,
+        "battery_pct": 83,
+        "rssi_dbm": -84,
+        "status": "Healthy",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_SOIL_01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.06,
+          25.658
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_SOIL_01",
+        "name": "FDR Soil Moisture Probe SM-01",
+        "sensor_type": "Soil Moisture",
+        "unit": "% Vol",
+        "zone_id": "ZONE_NH29_ZUBZA",
+        "health_score": 95,
+        "battery_pct": 81,
+        "rssi_dbm": -72,
+        "status": "Healthy",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_SOIL_02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.085,
+          25.679
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_SOIL_02",
+        "name": "TDR Soil Moisture Probe SM-02",
+        "sensor_type": "Soil Moisture",
+        "unit": "% Vol",
+        "zone_id": "ZONE_TSIESEMA_SPUR",
+        "health_score": 84,
+        "battery_pct": 73,
+        "rssi_dbm": -58,
+        "status": "Healthy",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_SEISMIC_01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.07,
+          25.669
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_SEISMIC_01",
+        "name": "Micro-seismic Acoustic Sensor MS-01",
+        "sensor_type": "Acoustic Emission",
+        "unit": "dB",
+        "zone_id": "ZONE_DZUDZA_GORGE",
+        "health_score": 94,
+        "battery_pct": 87,
+        "rssi_dbm": -75,
+        "status": "Healthy",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SNS_GNSS_01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.063,
+          25.659
+        ]
+      },
+      "properties": {
+        "sensor_id": "SNS_GNSS_01",
+        "name": "Differential GNSS Station GNSS-01",
+        "sensor_type": "GNSS Displacement",
+        "unit": "mm",
+        "zone_id": "ZONE_DZUDZA_BRIDGE",
+        "health_score": 95,
+        "battery_pct": 84,
+        "rssi_dbm": -74,
+        "status": "Healthy",
+        "sampling_interval_s": 60,
+        "telemetry_protocol": "LoRaWAN / 4G-Fallback"
+      }
+    }
+  ]
+}

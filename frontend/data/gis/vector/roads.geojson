@@ -1,0 +1,446 @@
+{
+  "type": "FeatureCollection",
+  "name": "transportation_network",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.025,
+            25.625
+          ],
+          [
+            94.032,
+            25.632
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_01",
+        "name": "NH-29 Sector 1 (Km 142)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 142,
+        "chainage_end_km": 143
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.032,
+            25.632
+          ],
+          [
+            94.041,
+            25.638
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_02",
+        "name": "NH-29 Sector 2 (Km 143)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 143,
+        "chainage_end_km": 144
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.041,
+            25.638
+          ],
+          [
+            94.048,
+            25.645
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_03",
+        "name": "NH-29 Sector 3 (Km 144)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 144,
+        "chainage_end_km": 145
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.048,
+            25.645
+          ],
+          [
+            94.055,
+            25.652
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_04",
+        "name": "NH-29 Sector 4 (Km 145)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 145,
+        "chainage_end_km": 146
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_05",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.055,
+            25.652
+          ],
+          [
+            94.062,
+            25.66
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_05",
+        "name": "NH-29 Sector 5 (Km 146)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 146,
+        "chainage_end_km": 147
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_06",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.062,
+            25.66
+          ],
+          [
+            94.07,
+            25.668
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_06",
+        "name": "NH-29 Sector 6 (Km 147)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 147,
+        "chainage_end_km": 148
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_07",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.07,
+            25.668
+          ],
+          [
+            94.078,
+            25.674
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_07",
+        "name": "NH-29 Sector 7 (Km 148)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 148,
+        "chainage_end_km": 149
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_08",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.078,
+            25.674
+          ],
+          [
+            94.088,
+            25.68
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_08",
+        "name": "NH-29 Sector 8 (Km 149)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 149,
+        "chainage_end_km": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_09",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.088,
+            25.68
+          ],
+          [
+            94.095,
+            25.688
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_09",
+        "name": "NH-29 Sector 9 (Km 150)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 150,
+        "chainage_end_km": 151
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_10",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.095,
+            25.688
+          ],
+          [
+            94.105,
+            25.695
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_10",
+        "name": "NH-29 Sector 10 (Km 151)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 151,
+        "chainage_end_km": 152
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_11",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.105,
+            25.695
+          ],
+          [
+            94.118,
+            25.705
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_11",
+        "name": "NH-29 Sector 11 (Km 152)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 152,
+        "chainage_end_km": 153
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_12",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.118,
+            25.705
+          ],
+          [
+            94.128,
+            25.712
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_12",
+        "name": "NH-29 Sector 12 (Km 153)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 153,
+        "chainage_end_km": 154
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NH29_SEC_13",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.128,
+            25.712
+          ],
+          [
+            94.135,
+            25.718
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "NH29_SEC_13",
+        "name": "NH-29 Sector 13 (Km 154)",
+        "road_type": "National Highway",
+        "criticality_weight": 1.0,
+        "traffic_pcu_per_day": 12500,
+        "width_m": 12.0,
+        "pavement_type": "Asphalt / Bituminous",
+        "chainage_start_km": 154,
+        "chainage_end_km": 155
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD_ZUBZA_LINK",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.055,
+            25.652
+          ],
+          [
+            94.058,
+            25.658
+          ],
+          [
+            94.064,
+            25.665
+          ],
+          [
+            94.069,
+            25.672
+          ],
+          [
+            94.074,
+            25.679
+          ],
+          [
+            94.078,
+            25.674
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "RD_ZUBZA_LINK",
+        "name": "Zubza-Sech\u00fc Hill Arterial",
+        "road_type": "State / District Road",
+        "criticality_weight": 0.75,
+        "traffic_pcu_per_day": 3400,
+        "width_m": 7.0,
+        "pavement_type": "WBM / Paved"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD_KHONOMA_SPUR",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.041,
+            25.638
+          ],
+          [
+            94.038,
+            25.648
+          ],
+          [
+            94.042,
+            25.659
+          ],
+          [
+            94.048,
+            25.67
+          ]
+        ]
+      },
+      "properties": {
+        "asset_id": "RD_KHONOMA_SPUR",
+        "name": "Khonoma Valley Spur Road",
+        "road_type": "Rural Arterial",
+        "criticality_weight": 0.6,
+        "traffic_pcu_per_day": 1800,
+        "width_m": 5.5,
+        "pavement_type": "Single Lane Paved"
+      }
+    }
+  ]
+}
