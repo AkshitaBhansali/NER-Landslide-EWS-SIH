@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "layer_id": "soil_moisture",
+    "title": "Live Soil Moisture & Pore Saturation (Open-Meteo & IMD AWS)",
+    "generated_at": "2026-09-04T11:32:23.988329+00:00",
+    "station_count": 5,
+    "avg_saturation_ratio": 0.936
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.1086,
+          25.6751,
+          1440
+        ]
+      },
+      "properties": {
+        "id": "aws-kohima",
+        "name": "Kohima District AWS",
+        "elevation_m": 1440,
+        "temperature_c": 21.6,
+        "relative_humidity_pct": 96.0,
+        "precipitation_current_mm": 1.2,
+        "rainfall_24h_mm": 48.5,
+        "soil_moisture_0_to_7cm_m3m3": 0.494,
+        "soil_moisture_7_to_28cm_m3m3": 0.504,
+        "soil_moisture_28_to_100cm_m3m3": 0.515,
+        "saturation_ratio_m": 0.936,
+        "factor_of_safety_fs": 0.98,
+        "slope_stability_status": "HIGH",
+        "source": "GROUND_MONSOON_FALLBACK",
+        "updated_at": "2026-09-04T11:32:23.988329+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.054,
+          25.712,
+          920
+        ]
+      },
+      "properties": {
+        "id": "aws-dzudza",
+        "name": "Dz\u00fcdza River Gorge AWS",
+        "elevation_m": 920,
+        "temperature_c": 21.6,
+        "relative_humidity_pct": 96.0,
+        "precipitation_current_mm": 1.2,
+        "rainfall_24h_mm": 48.5,
+        "soil_moisture_0_to_7cm_m3m3": 0.494,
+        "soil_moisture_7_to_28cm_m3m3": 0.504,
+        "soil_moisture_28_to_100cm_m3m3": 0.515,
+        "saturation_ratio_m": 0.936,
+        "factor_of_safety_fs": 0.98,
+        "slope_stability_status": "CRITICAL",
+        "source": "GROUND_MONSOON_FALLBACK",
+        "updated_at": "2026-09-04T11:32:23.988329+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.985,
+          25.751,
+          680
+        ]
+      },
+      "properties": {
+        "id": "aws-peducha",
+        "name": "Peducha Highway Sinking Zone AWS",
+        "elevation_m": 680,
+        "temperature_c": 21.6,
+        "relative_humidity_pct": 96.0,
+        "precipitation_current_mm": 1.2,
+        "rainfall_24h_mm": 48.5,
+        "soil_moisture_0_to_7cm_m3m3": 0.494,
+        "soil_moisture_7_to_28cm_m3m3": 0.504,
+        "soil_moisture_28_to_100cm_m3m3": 0.515,
+        "saturation_ratio_m": 0.936,
+        "factor_of_safety_fs": 0.98,
+        "slope_stability_status": "HIGH",
+        "source": "GROUND_MONSOON_FALLBACK",
+        "updated_at": "2026-09-04T11:32:23.988329+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.7711,
+          25.8839,
+          145
+        ]
+      },
+      "properties": {
+        "id": "aws-dimapur",
+        "name": "Dimapur Airport Station",
+        "elevation_m": 145,
+        "temperature_c": 21.6,
+        "relative_humidity_pct": 96.0,
+        "precipitation_current_mm": 1.2,
+        "rainfall_24h_mm": 48.5,
+        "soil_moisture_0_to_7cm_m3m3": 0.494,
+        "soil_moisture_7_to_28cm_m3m3": 0.504,
+        "soil_moisture_28_to_100cm_m3m3": 0.515,
+        "saturation_ratio_m": 0.936,
+        "factor_of_safety_fs": 0.98,
+        "slope_stability_status": "HIGH",
+        "source": "GROUND_MONSOON_FALLBACK",
+        "updated_at": "2026-09-04T11:32:23.988329+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.112,
+          25.621,
+          1650
+        ]
+      },
+      "properties": {
+        "id": "aws-phesama",
+        "name": "Phesama Slide Observational AWS",
+        "elevation_m": 1650,
+        "temperature_c": 21.6,
+        "relative_humidity_pct": 96.0,
+        "precipitation_current_mm": 1.2,
+        "rainfall_24h_mm": 48.5,
+        "soil_moisture_0_to_7cm_m3m3": 0.494,
+        "soil_moisture_7_to_28cm_m3m3": 0.504,
+        "soil_moisture_28_to_100cm_m3m3": 0.515,
+        "saturation_ratio_m": 0.936,
+        "factor_of_safety_fs": 0.98,
+        "slope_stability_status": "HIGH",
+        "source": "GROUND_MONSOON_FALLBACK",
+        "updated_at": "2026-09-04T11:32:23.988329+00:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-09-04T11:32:24.083637+00:00",
+  "seismic_events_count": 2,
+  "nearest_seismic_km": 68.4,
+  "weather_stations_count": 5,
+  "avg_saturation_ratio": 0.936,
+  "gsi_zones_count": 7,
+  "osm_assets_count": 4,
+  "sources": [
+    "NCS India (National Center for Seismology, MoES)",
+    "USGS Earthquake Hazards Feed",
+    "Open-Meteo & IMD AWS Meteorological Grids",
+    "GSI Bhukosh (Geological Survey of India) NLSM 1:50k Program",
+    "OpenStreetMap Overpass Live Infrastructure"
+  ]
+}

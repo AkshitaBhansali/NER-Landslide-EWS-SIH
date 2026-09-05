@@ -1,0 +1,13 @@
+{
+  "min_lon": 94.02,
+  "max_lon": 94.14,
+  "min_lat": 25.62,
+  "max_lat": 25.72,
+  "rows": 100,
+  "cols": 100,
+  "cell_size_m": 10.0,
+  "min_elevation_m": 720.0,
+  "max_elevation_m": 2312.05,
+  "mean_elevation_m": 1359.965603,
+  "crs": "EPSG:4326"
+}

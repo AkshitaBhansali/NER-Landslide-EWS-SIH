@@ -1,0 +1,13 @@
+# Optional: in-process inference with the trained classifier.
+#
+# The backend runs without these. Absent them, `ml_model.available()` is False and
+# every zone is scored by the rule engine — which encodes the failure physics and is
+# a complete early-warning system on its own. Install these to have the trained
+# RandomForest score zones as well, with the more severe of the two assessments
+# published.
+#
+#   pip install -r requirements.txt -r requirements-ml.txt
+
+scikit-learn>=1.3
+joblib>=1.3
+pandas>=2.0

@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "layer_id": "seismic",
+    "title": "Live Seismic Triggers (NCS India & USGS)",
+    "generated_at": "2026-09-04T11:32:23.512038+00:00",
+    "count": 2,
+    "nearest_event_km": 68.4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.994,
+          26.297,
+          27.0
+        ]
+      },
+      "properties": {
+        "id": "ncs-offline-golaghat-wokha",
+        "title": "M 3.0 - 35km NW of Wokha, Nagaland, India",
+        "magnitude": 3.0,
+        "depth_km": 27.0,
+        "region": "Golaghat / Wokha",
+        "location": "35km NW of Wokha, Nagaland",
+        "time": "2026-09-04T11:32:23.512038+00:00",
+        "source": "NCS_INDIA_MOES",
+        "distance_to_corridor_km": 68.4,
+        "trigger_potential": "MODERATE",
+        "shaking_radius_km": 19.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.8868,
+          27.0255,
+          10.0
+        ]
+      },
+      "properties": {
+        "id": "usgs-offline-sarupathar",
+        "title": "M 4.2 - 91 km N of Sarupathar, India",
+        "magnitude": 4.2,
+        "depth_km": 10.0,
+        "region": "Assam / Nagaland Border",
+        "location": "91 km N of Sarupathar",
+        "time": "2026-09-04T11:32:23.512038+00:00",
+        "source": "USGS_HAZARDS",
+        "distance_to_corridor_km": 142.1,
+        "trigger_potential": "LOW",
+        "shaking_radius_km": 64.0
+      }
+    }
+  ]
+}

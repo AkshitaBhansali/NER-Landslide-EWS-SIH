@@ -1,0 +1,262 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "layer_id": "gsi_susceptibility",
+    "title": "GSI Landslide Susceptibility & Inventory (Bhukosh NLSM)",
+    "authority": "Geological Survey of India (GSI) / Ministry of Mines",
+    "generated_at": "2026-09-04T11:32:24.077203+00:00",
+    "count": 7
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.045,
+              25.7
+            ],
+            [
+              94.065,
+              25.7
+            ],
+            [
+              94.07,
+              25.725
+            ],
+            [
+              94.05,
+              25.73
+            ],
+            [
+              94.038,
+              25.715
+            ],
+            [
+              94.045,
+              25.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gsi-nlsm-dzudza-vh",
+        "zone_name": "Dz\u00fcdza River Colluvial Toe-Scour Corridor",
+        "susceptibility_class": "VERY_HIGH",
+        "nlsm_score": 0.88,
+        "color": "#e53e3e",
+        "geology": "Disang Group Shales with Colluvial Overburden",
+        "dominant_slope_deg": 38.5,
+        "lineament_density": "HIGH",
+        "gsi_inventory_code": "GSI-NER-NLSM-2024-041",
+        "authority": "Geological Survey of India (GSI) Bhukosh NLSM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.1,
+              25.605
+            ],
+            [
+              94.125,
+              25.605
+            ],
+            [
+              94.13,
+              25.635
+            ],
+            [
+              94.105,
+              25.635
+            ],
+            [
+              94.095,
+              25.62
+            ],
+            [
+              94.1,
+              25.605
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gsi-nlsm-phesama-h",
+        "zone_name": "Phesama Sinking Flank (NH-29 South)",
+        "susceptibility_class": "HIGH",
+        "nlsm_score": 0.74,
+        "color": "#dd6b20",
+        "geology": "Barail Sandstone / Disang Shale Thrust Contact",
+        "dominant_slope_deg": 32.0,
+        "lineament_density": "MODERATE",
+        "gsi_inventory_code": "GSI-NER-NLSM-2024-042",
+        "authority": "Geological Survey of India (GSI) Bhukosh NLSM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              93.975,
+              25.74
+            ],
+            [
+              94.005,
+              25.74
+            ],
+            [
+              94.015,
+              25.765
+            ],
+            [
+              93.985,
+              25.77
+            ],
+            [
+              93.965,
+              25.755
+            ],
+            [
+              93.975,
+              25.74
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gsi-nlsm-peducha-h",
+        "zone_name": "Peducha Active Subsidence Sector",
+        "susceptibility_class": "HIGH",
+        "nlsm_score": 0.71,
+        "color": "#dd6b20",
+        "geology": "Weathered Siltstone & Colluvial Debris",
+        "dominant_slope_deg": 29.5,
+        "lineament_density": "MODERATE",
+        "gsi_inventory_code": "GSI-NER-NLSM-2024-043",
+        "authority": "Geological Survey of India (GSI) Bhukosh NLSM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.085,
+              25.66
+            ],
+            [
+              94.12,
+              25.66
+            ],
+            [
+              94.125,
+              25.695
+            ],
+            [
+              94.09,
+              25.695
+            ],
+            [
+              94.075,
+              25.68
+            ],
+            [
+              94.085,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gsi-nlsm-kohima-m",
+        "zone_name": "Kohima Urban Ridge / War Cemetery Flank",
+        "susceptibility_class": "MODERATE",
+        "nlsm_score": 0.52,
+        "color": "#d69e2e",
+        "geology": "Barail Formation Hard Sandstone",
+        "dominant_slope_deg": 24.0,
+        "lineament_density": "LOW",
+        "gsi_inventory_code": "GSI-NER-NLSM-2024-044",
+        "authority": "Geological Survey of India (GSI) Bhukosh NLSM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.0538,
+          25.7142,
+          910
+        ]
+      },
+      "properties": {
+        "id": "gsi-inv-dzudza-2024",
+        "name": "Dz\u00fcdza Bridge Highway Severance Slide",
+        "type": "HISTORICAL_LANDSLIDE",
+        "date": "2024-08-18",
+        "volume_m3": 65000,
+        "runout_distance_m": 420,
+        "impact": "NH-29 severed for 14 days, Kohima cut off from Dimapur railhead",
+        "mechanism": "Rotational debris slide with toe scour by Dz\u00fcdza river",
+        "authority": "GSI Bhukosh Incident Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.1105,
+          25.6189,
+          1620
+        ]
+      },
+      "properties": {
+        "id": "gsi-inv-phesama-2015",
+        "name": "Phesama Village Chronic Slide",
+        "type": "HISTORICAL_LANDSLIDE",
+        "date": "2015-08-12",
+        "volume_m3": 120000,
+        "runout_distance_m": 850,
+        "impact": "45 residential structures destroyed, NH-29 bypassed",
+        "mechanism": "Translational retrogressive rock-debris slide",
+        "authority": "GSI Bhukosh Incident Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.892,
+          25.798,
+          240
+        ]
+      },
+      "properties": {
+        "id": "gsi-inv-pagla-pahar",
+        "name": "Pagla Pahar Chronic Rockfall & Mudslide Zone",
+        "type": "HISTORICAL_LANDSLIDE",
+        "date": "2023-07-04",
+        "volume_m3": 35000,
+        "runout_distance_m": 310,
+        "impact": "Multiple vehicles struck by rockfall boulders on NH-29",
+        "mechanism": "Joint-controlled rock topple and debris flow",
+        "authority": "GSI Bhukosh Incident Registry"
+      }
+    }
+  ]
+}

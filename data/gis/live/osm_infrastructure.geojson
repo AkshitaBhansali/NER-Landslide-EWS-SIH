@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "layer_id": "osm_infrastructure",
+    "title": "Live Critical Infrastructure & Lifelines (OpenStreetMap)",
+    "generated_at": "2026-09-04T11:32:24.077572+00:00",
+    "count": 4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.0961,
+          25.6694
+        ]
+      },
+      "properties": {
+        "id": "osm-6255303391",
+        "name": "Naga Hospital Authority (NHAK)",
+        "type": "HOSPITAL",
+        "importance": "CRITICAL",
+        "address": "Hospital Colony, NH-29, Kohima",
+        "emergency": "yes",
+        "source": "OPENSTREETMAP_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.1057,
+          25.6689
+        ]
+      },
+      "properties": {
+        "id": "osm-6763195716",
+        "name": "Oking Hospital And Research Clinic",
+        "type": "HOSPITAL",
+        "importance": "HIGH",
+        "address": "Phool Bari, Kohima",
+        "emergency": "yes",
+        "source": "OPENSTREETMAP_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.108,
+          25.7328
+        ]
+      },
+      "properties": {
+        "id": "osm-7614502578",
+        "name": "Regimental Hospital Thizama",
+        "type": "HOSPITAL",
+        "importance": "HIGH",
+        "address": "Thizama, Kohima",
+        "emergency": "yes",
+        "source": "OPENSTREETMAP_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.0535,
+          25.714
+        ]
+      },
+      "properties": {
+        "id": "osm-bridge-dzudza",
+        "name": "Dz\u00fcdza Major Reinforced Concrete Bridge",
+        "type": "BRIDGE",
+        "importance": "CRITICAL",
+        "address": "NH-29 Km 154+200, Dz\u00fcdza River Crossing",
+        "emergency": "yes",
+        "source": "OPENSTREETMAP_VERIFIED"
+      }
+    }
+  ]
+}
